@@ -1,5 +1,6 @@
 # JevAdvBench: A Benchmark and Black-Box Attacks for Reinforcement Learning for Calibrated Decisions Models
 
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper.pdf)
 [![Project page](https://img.shields.io/badge/Project-page-green)](https://jevadvbench.github.io/JevAdvBench/)
 [![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b)](#citation)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-JevAdvBench-yellow)](https://huggingface.co/datasets/Hangtao/JevAdvBench)
@@ -138,6 +139,7 @@ The scripts in [`code/`](code) regenerate the attack variants and query `jev-1.1
 
 ```
 JevAdvBench/
+├── paper.pdf
 ├── data/
 │   ├── beta1.0.json         812 clean typed questions over 66 scenarios
 │   └── ADbeta1.0.json       9,744 single-edit attack variants
