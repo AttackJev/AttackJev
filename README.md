@@ -2,6 +2,7 @@
 
 [![Project page](https://img.shields.io/badge/Project-page-green)](https://jevadvbench.github.io/JevAdvBench/)
 [![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b)](#citation)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-JevAdvBench-yellow)](https://huggingface.co/datasets/Hangtao/JevAdvBench)
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-lightgrey)](LICENSE)
 [![Data license: CC BY-NC 4.0](https://img.shields.io/badge/data-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -28,7 +29,17 @@ In contrast, one unverified opinion appended to the state flips 12.1% of decisio
 
 ## Data
 
-Everything is in this repository; no download or access request is needed.
+Everything is in this repository, and the same data is on Hugging Face at [`Hangtao/JevAdvBench`](https://huggingface.co/datasets/Hangtao/JevAdvBench) in three flat configs:
+
+```python
+from datasets import load_dataset
+
+clean     = load_dataset("Hangtao/JevAdvBench", "clean", split="test")      # 812 questions
+attacks   = load_dataset("Hangtao/JevAdvBench", "attacks", split="test")    # 9,744 variants
+responses = load_dataset("Hangtao/JevAdvBench", "responses", split="test")  # 11,368 Jev answers
+```
+
+[`tools/build_hf.py`](tools/build_hf.py) builds that release from the files below.
 
 | File | Contents |
 |---|---|
@@ -136,6 +147,7 @@ JevAdvBench/
 ├── code/                    attack generator and API evaluator used for the run
 ├── spec/                    perturbation specification
 ├── figs/                    paper figures
+├── tools/                   Hugging Face release builder and dataset card
 └── docs/                    project page (GitHub Pages)
 ```
 
