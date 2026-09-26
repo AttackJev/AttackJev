@@ -3,7 +3,7 @@
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper.pdf)
 [![Project page](https://img.shields.io/badge/Project-page-green)](https://jevadvbench.github.io/JevAdvBench/)
 [![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b)](#citation)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-JevAdvBench-yellow)](https://huggingface.co/datasets/Hangtao/JevAdvBench)
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/Hangtao/JevAdvBench)
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-lightgrey)](LICENSE)
 [![Data license: CC BY-NC 4.0](https://img.shields.io/badge/data-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
 
