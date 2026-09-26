@@ -1,10 +1,13 @@
 name: Deploy project page
 
+# The site lives on the gh-pages branch. This workflow runs from main (so it is allowed
+# to deploy to the github-pages environment), checks that branch out and publishes it.
+# It is started by gh-pages/.github/workflows/publish.yml on every push to gh-pages.
 on:
+  workflow_dispatch:
   push:
     branches: [main]
-    paths: ["docs/**", ".github/workflows/pages.yml"]
-  workflow_dispatch:
+    paths: [".github/workflows/pages.yml"]
 
 permissions:
   contents: read
@@ -23,9 +26,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: .
       - id: deployment
         uses: actions/deploy-pages@v4

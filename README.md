@@ -149,9 +149,10 @@ JevAdvBench/
 ├── code/                    attack generator and API evaluator used for the run
 ├── spec/                    perturbation specification
 ├── figs/                    paper figures
-├── tools/                   Hugging Face release builder and dataset card
-└── docs/                    project page (GitHub Pages)
+└── tools/                   Hugging Face release builder and dataset card
 ```
+
+The [project page](https://jevadvbench.github.io/JevAdvBench/) is kept separately on the [`gh-pages`](https://github.com/JevAdvBench/JevAdvBench/tree/gh-pages) branch.
 
 ## Ethics
 
