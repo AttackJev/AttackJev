@@ -1,0 +1,13 @@
+id,attack,median_added_chars,mean_delta_billed_tokens,requests_with_zero_extra_tokens,status
+Q1,Word/spacing edits,5,5.4,36,delivered
+Q2,Paraphrasing,1,0.4,586,delivered
+Q3,Unrelated sentences,143,28.1,0,delivered
+T1,Unrelated state note,187,37.4,0,delivered
+T2,Observer opinion,195,48.3,0,delivered
+T3,Opinion via analogy,420,84.8,0,delivered
+P1,Direct override,81,16.3,0,delivered
+P2,Authority impersonation,108,26.0,0,delivered
+P3,Fake validation note,102,21.9,0,delivered
+S1,Unrelated extra field,269,0.0,812,not delivered
+S2,Escaped field names,10,0.0,812,no-op
+S3,Opinion in extra field,190,0.0,812,not delivered

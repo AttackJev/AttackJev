@@ -1,0 +1,74 @@
+{
+  "archive_sha256": "eb8742ee54efd3b2a4e6fba72a5b905b28404cad0497722393dcbbf7a0690a48",
+  "archive_bytes": 3021584,
+  "parts": [
+    {
+      "file": "evidence.tar.xz.part001",
+      "bytes": 245760,
+      "sha256": "f3a9894e713ca9d43a6c23c55a997e257e34369f18f2d0727c590a81efd780ff"
+    },
+    {
+      "file": "evidence.tar.xz.part002",
+      "bytes": 245760,
+      "sha256": "da474a5cab3c8027eca2270afd3235a2be11d6563795ae9f580f064adc01c863"
+    },
+    {
+      "file": "evidence.tar.xz.part003",
+      "bytes": 245760,
+      "sha256": "e3a0fb8cce5c0d5724cec3aa52f2850457b7ed31b32a51efddadf5d646b5ebc5"
+    },
+    {
+      "file": "evidence.tar.xz.part004",
+      "bytes": 245760,
+      "sha256": "36798c88ea94fe599c41c6a82b359b7ca6e18bf5350806d24dd940cc5fbc4406"
+    },
+    {
+      "file": "evidence.tar.xz.part005",
+      "bytes": 245760,
+      "sha256": "16feed75da8f8decee87f96034de81e8f366c27b930909155c8fd593ef90331a"
+    },
+    {
+      "file": "evidence.tar.xz.part006",
+      "bytes": 245760,
+      "sha256": "43c7b969b528d4c5f0b5a68643a66f5cc27d0fa6ed74a23be98bf5ac9b2ca6ce"
+    },
+    {
+      "file": "evidence.tar.xz.part007",
+      "bytes": 245760,
+      "sha256": "58ef833fc066b7004fa315636034f08bd170781c3fdfb5cd29e73c29102b3a84"
+    },
+    {
+      "file": "evidence.tar.xz.part008",
+      "bytes": 245760,
+      "sha256": "227300fb5f09febd966479fa1c12fe458da3d4164b9e1089e1ef80722199c07e"
+    },
+    {
+      "file": "evidence.tar.xz.part009",
+      "bytes": 245760,
+      "sha256": "cb04d4af714e6fdaf46aeb17001bfdbbbe2240277dbe73c740bcf5ad888ebb79"
+    },
+    {
+      "file": "evidence.tar.xz.part010",
+      "bytes": 245760,
+      "sha256": "b5aa27f55cbc4c565d5411df7908462c3ea4c837d9d324970b46d924a8dff41e"
+    },
+    {
+      "file": "evidence.tar.xz.part011",
+      "bytes": 245760,
+      "sha256": "3883c7bbf916cf2a00b84be366057504b58782c486903380cbf42fb226c2fd2b"
+    },
+    {
+      "file": "evidence.tar.xz.part012",
+      "bytes": 245760,
+      "sha256": "390553ea0e525be8288085c1a8a2c5a87d23c1f190c2d531b68e08293636da46"
+    },
+    {
+      "file": "evidence.tar.xz.part013",
+      "bytes": 72464,
+      "sha256": "530a15c56ff4505f870f07084f4b8abc9c2acf57640638ca844bd7beda650313"
+    }
+  ],
+  "current_response_count": 10556,
+  "repeat_response_count": 812,
+  "evidence_file_count": 11737
+}

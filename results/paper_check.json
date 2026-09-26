@@ -1,0 +1,31 @@
+{
+ "checked": 256,
+ "matched": 256,
+ "mismatched": [],
+ "ci_endpoints_differing_within_tolerance": [
+  "rate CI hi rerun: 1.8 vs paper 1.9",
+  "rate CI lo Q1: 0.1 vs paper 0.3",
+  "rate CI hi Q1: 1.8 vs paper 1.9",
+  "rate CI hi Q3: 6.3 vs paper 6.4",
+  "rate CI lo T2: 8.4 vs paper 8.5",
+  "rate CI hi T2: 15.7 vs paper 15.5",
+  "rate CI lo T3: 4.6 vs paper 4.4",
+  "rate CI hi T3: 9.3 vs paper 9.2",
+  "rate CI lo P2: 8.2 vs paper 8.3",
+  "rate CI lo P3: 5.8 vs paper 5.7",
+  "rate CI hi P3: 10.4 vs paper 10.3",
+  "rate CI lo S2: 0.3 vs paper 0.1",
+  "rate CI hi S3: 1.5 vs paper 1.6",
+  "excess CI lo Q1: -0.7 vs paper -0.6",
+  "excess CI hi Q2: 1.4 vs paper 1.3",
+  "excess CI lo T1: 0.4 vs paper 0.3",
+  "excess CI lo T2: 7.7 vs paper 7.8",
+  "excess CI lo T3: 3.9 vs paper 3.8",
+  "excess CI hi T3: 7.8 vs paper 7.7",
+  "excess CI lo P1: 5.8 vs paper 5.7",
+  "excess CI hi P1: 10.0 vs paper 10.1",
+  "excess CI lo P2: 7.3 vs paper 7.4",
+  "excess CI lo P3: 5.1 vs paper 5.0",
+  "excess CI lo S3: -0.6 vs paper -0.7"
+ ]
+}
